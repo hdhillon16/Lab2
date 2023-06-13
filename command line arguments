@@ -1,0 +1,10 @@
+import sys
+
+def print_arguments():
+    script_name = sys.argv[0]
+    print("Script name:", script_name)
+
+    arguments = ' '.join(sys.argv)
+    print("Script name and arguments:", arguments)
+
+print_arguments()
